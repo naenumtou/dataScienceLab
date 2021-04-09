@@ -1,7 +1,7 @@
 
 /*Import dataset*/
 proc import out = dataset
-datafile= "C:\Users\Sasiwut.Chaiyadecha\Desktop\Python\titanic.csv"
+datafile = "C:\Users\Sasiwut.Chaiyadecha\Desktop\Python\titanic.csv"
 DBMS = csv
 replace;
 getnames = yes;
