@@ -15,12 +15,18 @@ The statistical models repository is contained the model or analysis, which are 
 Those twos have seperated repositories, which can be visited
 
 ## Time series model
-* Survival Analysis Model ***(survivalAnalysis.ipynb)***
+* Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference ***(bayesian_linear_regression.ipynb)***
 
 ## Dimensionality reduction
 
 ## Statistic analysis / technique
-| File name | Description |
-| --- | --- |
-| MICE.ipynb | MICE: Multivariate Imputation by Chained Equations: Multiple Imputation by Chained Equations is a robust, informative method of dealing with missing data in dataset |
+* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
+* SHAP values are used to explain individual predictions made by a model ***(SHAPInterpreter.ipynb)***
+* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
+* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
+* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
+* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
+* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
 
+## Modelling
+* PyCaret is an open source, low-code machine learning library ***(PyCaretModel.ipynb)***
