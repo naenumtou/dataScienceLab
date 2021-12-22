@@ -4,6 +4,6 @@
 ![](https://img.shields.io/badge/Code-Python-blue)
 
 <p align="center">
-  <img src="https://www.bestproxyreviews.com/wp-content/uploads/2020/09/Statistical-Analysis-Methods.jpg" alt="The statistical models"/>
+  <img src="https://research.phoenix.edu/sites/default/files/blogpost/images/statistical-analysis-hero.jpg" alt="The statistical models"/>
 </p>
 
