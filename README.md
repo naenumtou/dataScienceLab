@@ -20,13 +20,8 @@ Those twos have seperated repositories, which can be visited
 ## Dimensionality reduction
 
 ## Statistic analysis / technique
-* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
-* SHAP values are used to explain individual predictions made by a model ***(SHAPInterpreter.ipynb)***
-* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
-* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
-* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
-* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
-* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
+* ***MICE.ipynb***: MICE is the Multivariate Imputation by Chained Equations 
+* ***SHAPInterpreter.ipynb***: SHAP values are used to explain individual predictions made by a model 
 
 ## Modelling
-* PyCaret is an open source, low-code machine learning library ***(PyCaretModel.ipynb)***
+* ***PyCaretModel.ipynb***: PyCaret is an open source, low-code machine learning library 
