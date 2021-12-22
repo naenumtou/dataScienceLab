@@ -16,12 +16,12 @@ Those twos have seperated repositories, which can be visited
 
 ## Time series model
 * ***bayesian_linear_regression.ipynb***: Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference
-* ***pca.ipynb***: The Principal Component Analysis (PCA) appiled for time series data
-* ***pcr.ipynb***: The Principal Component Analysis (PCA) with linear regression appiled for time series data
-* ***pls_regression.ipynb***: The Partial Least Squares (PLS) for time series data
-* ***timeSeriesSlide.ipynb***: The time series model cross validation with time slide window
-* ***timeSeriesSplit.ipynb***: The time series model cross validation with time split window
-* ***timeSplit.sas***: Utilised SAS to perform the time series model cross validation with time split window
+* ***pca.ipynb:*** The Principal Component Analysis (PCA) appiled for time series data
+* ***pcr.ipynb*** The Principal Component Analysis (PCA) with linear regression appiled for time series data
+* ***pls_regression.ipynb*** The Partial Least Squares (PLS) for time series data
+* ***timeSeriesSlide.ipynb*** The time series model cross validation with time slide window
+* ***timeSeriesSplit.ipynb*** The time series model cross validation with time split window
+* ***timeSplit.sas:*** Utilised SAS to perform the time series model cross validation with time split window
 
 ## Statistic analysis / technique
 * ***MICE.ipynb***: MICE is the Multivariate Imputation by Chained Equations
