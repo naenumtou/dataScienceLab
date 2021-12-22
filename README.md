@@ -9,3 +9,7 @@
   <img src="https://research.phoenix.edu/sites/default/files/blogpost/images/statistical-analysis-hero.jpg" alt="The statistical models"/>
 </p>
 
+The statistical models repository is contained the model or analysis, which are not apart of IFRS 9 or Credit Risk. This
+
+
+Those twos have seperated repositories, which can be visited
