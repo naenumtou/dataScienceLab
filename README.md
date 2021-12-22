@@ -13,3 +13,11 @@ The statistical models repository is contained the model or analysis, which are 
 
 
 Those twos have seperated repositories, which can be visited
+
+## Time series model
+* Survival Analysis Model ***(survivalAnalysis.ipynb)***
+
+## Dimensionality reduction
+
+## Statistic analysis / technique
+* MICE: Multivariate Imputation by Chained Equations ***(MICE.ipynb)***
