@@ -20,4 +20,7 @@ Those twos have seperated repositories, which can be visited
 ## Dimensionality reduction
 
 ## Statistic analysis / technique
-* MICE: Multivariate Imputation by Chained Equations: Multiple Imputation by Chained Equations is a robust, informative method of dealing with missing data in datasets. ***(MICE.ipynb)***
+| File name | Description |
+| --- | --- |
+| MICE.ipynb | MICE: Multivariate Imputation by Chained Equations: Multiple Imputation by Chained Equations is a robust, informative method of dealing with missing data in dataset |
+
