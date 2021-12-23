@@ -46,3 +46,4 @@ Those twos have seperated repositories, which can be visited
 
 ## Model (Others)
 * ***sir_seir_model.ipynb:*** The simulation model for COVID-19 pandemic
+* ***RFMAnalysis.ipynb:*** The customer segmentation with RFM Analysis
