@@ -8,7 +8,7 @@
   <img src="https://miro.medium.com/max/1400/1*t8d6pcrhaZ3GZn31Y-U0pA.png" alt="statistical data for model"/>
 </p>
 
-Dataset used for developing PD Model is monthly transaction data. It contained payment proflie of customers for the loan. In this repository is not contained all transaction file due to limitation on space. The files are only summarised level such as count of observation.
+The Dataset used for conducting the statistical models / techniques / tutorial. It may not contain all datasets in this repository due to limitation on space. However, the majority of maind datasets could be found here.
 
 ## Datasets
 | File name | Description |
