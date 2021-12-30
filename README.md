@@ -9,10 +9,7 @@
   <img src="https://research.phoenix.edu/sites/default/files/blogpost/images/statistical-analysis-hero.jpg" alt="The statistical models"/>
 </p>
 
-The statistical models repository is contained the model or analysis, which are not apart of IFRS 9 or Credit Risk. This
-
-
-Those twos have seperated repositories, which can be visited
+The statistical models repository is contained the model or analysis, which are not apart of IFRS 9 or Credit Risk. There are various kinds of statistical model / techniques, which may helpful to adapt other general cases.
 
 ## Time series model
 * ***bayesian_linear_regression.ipynb:*** The Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference
