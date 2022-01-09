@@ -38,9 +38,12 @@ The statistical models repository is contained the model or analysis, which are 
 ## Market risk
 * `sharpeRatio.ipynb`: Portfolio optimisation using Sharpe ratio
 
+## Marketing
+* `RFMAnalysis.ipynb`: The customer segmentation with RFM Analysis
+
 ## Natural language processing (NLP)
 * `twitterIOLSA.ipynb`: The topic modelling of TwitterIO Dataset using LSA Model
 
 ## Model (Others)
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic
-* `RFMAnalysis.ipynb`: The customer segmentation with RFM Analysis
+
