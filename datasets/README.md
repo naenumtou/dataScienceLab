@@ -25,3 +25,4 @@ The Dataset used for conducting the statistical models / techniques / tutorial. 
 | twitterIOTweets.csv | The raw TwitterIO Dataset |
 | twitterIOInfo.csv | The information of TwitterIO Dataset |
 | twitterIOClean.csv | The cleaned TwitterIO Dataset |
+| marketingCampaign.csv | The marketing campaign for market segment analysis |
