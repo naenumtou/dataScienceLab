@@ -38,7 +38,7 @@ The statistical models repository is contained the model or analysis, which are 
 ## Market risk
 * `sharpeRatio.ipynb`: Portfolio optimisation using Sharpe ratio
 
-## Marketing
+## Customer and Marketing
 * `RFMAnalysis.ipynb`: The customer segmentation with RFM Analysis
 
 ## Natural language processing (NLP)
