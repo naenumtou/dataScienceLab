@@ -35,6 +35,7 @@ The statistical models repository is contained the model or analysis, which are 
 
 ## Computer vision
 * `face_recognition_pca_svm.ipynb`: Building face recognition by using Principal Component Analysis (PCA) and Support Vector Machine (SVM)
+* `HOGClassification.ipynb`: Building car logo classification model by using histogram of oriented gradients (HOG) with K-Nearest neighbor
 
 ## Market risk
 * `sharpeRatio.ipynb`: Portfolio optimisation using Sharpe ratio
