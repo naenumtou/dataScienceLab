@@ -1,6 +1,7 @@
 # ✍🏻 The statistical models
 
 ![Google Colab](https://img.shields.io/badge/Editor-Google%20Colab-brightgreen)
+![VS Code](https://img.shields.io/badge/Editor-VS%20Code-brightgreen)
 ![SAS](https://img.shields.io/badge/Editor-SAS-brightgreen)
 ![Python](https://img.shields.io/badge/Code-Python-blue)
 ![SAS](https://img.shields.io/badge/Code-SAS-blue)
