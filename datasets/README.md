@@ -26,3 +26,4 @@ The Dataset used for conducting the statistical models / techniques / tutorial. 
 | twitterIOInfo.csv | The information of TwitterIO Dataset |
 | twitterIOClean.csv | The cleaned TwitterIO Dataset |
 | marketingCampaign.csv | The marketing campaign for market segment analysis |
+| oilPrice.csv | Time series oil price data |
