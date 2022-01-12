@@ -27,3 +27,4 @@ The Dataset used for conducting the statistical models / techniques / tutorial. 
 | twitterIOClean.csv | The cleaned TwitterIO Dataset |
 | marketingCampaign.csv | The marketing campaign for market segment analysis |
 | oilPrice.csv | Time series oil price data |
+| faceSample.jpg | Human face example |
