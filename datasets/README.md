@@ -28,3 +28,5 @@ The Dataset used for conducting the statistical models / techniques / tutorial. 
 | marketingCampaign.csv | The marketing campaign for market segment analysis |
 | oilPrice.csv | Time series oil price data |
 | faceSample.jpg | Human face example |
+| card.jpg | The example card ace of hearts |
+| targetCard.jpg | The target of example card ace of hearts |
