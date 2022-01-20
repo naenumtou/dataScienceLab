@@ -14,6 +14,7 @@ The statistical models repository is contained the model or analysis, which are 
 
 ## Time series model
 * `bayesian_linear_regression.ipynb`: The Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference
+* `ARIMAModel.ipynb`: The ARIMA Model (Autoregressive Integrated Moving Average) used for stock price prediction
 * `SARIMAModel.ipynb`: The SARIMA Model (Seasonal Autoregressive Integrated Moving Average) used for oil price prediction
 * `pca.ipynb`: The Principal Component Analysis (PCA) appiled for time series data
 * `pcr.ipynb`: The Principal Component Analysis (PCA) with linear regression appiled for time series data
@@ -50,4 +51,3 @@ The statistical models repository is contained the model or analysis, which are 
 
 ## Model (Others)
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic
-
