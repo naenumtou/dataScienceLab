@@ -40,6 +40,7 @@ The statistical models repository is contained the model or analysis, which are 
 * `HOGClassification.ipynb`: Building car logo classification model by using histogram of oriented gradients (HOG) with K-Nearest neighbor
 * `slidingWindow.ipynb`: Sliding window for image processing
 * `nonMaximumSuppression.ipynb`: Non-maximum suppression for true positive image processing
+* `classicObjectDetection.ipynb`: Apply HOG Features extraction with image sliding window and Non-maximum suppression to create object detection model
 
 ## Market risk
 * `sharpeRatio.ipynb`: Portfolio optimisation using Sharpe ratio
