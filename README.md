@@ -36,6 +36,7 @@ The statistical models repository is contained the model or analysis, which are 
 * `pipelineModel.ipynb`: The tutorial for using Pipiline module in scikit-learn library
 
 ## Computer vision
+* `LisaFaces.ipynb`: The face recognition model with a few lines of code using `face_recognition` library
 * `face_recognition_pca_svm.ipynb`: Building face recognition by using Principal Component Analysis (PCA) and Support Vector Machine (SVM)
 * `HOGClassification.ipynb`: Building car logo classification model by using histogram of oriented gradients (HOG) with K-Nearest neighbor
 * `slidingWindow.ipynb`: Sliding window for image processing
