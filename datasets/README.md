@@ -30,3 +30,4 @@ The Dataset used for conducting the statistical models / techniques / tutorial. 
 | faceSample.jpg | Human face example |
 | card.jpg | The example card ace of hearts |
 | targetCard.jpg | The target of example card ace of hearts |
+| hist_covid-19.csv | The historycal cases of COVID-19 by country |
