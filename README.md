@@ -44,6 +44,7 @@ The statistical models repository is contained the model or analysis, which are 
 * `slidingWindow.ipynb`: Sliding window for image processing
 * `nonMaximumSuppression.ipynb`: Non-maximum suppression for true positive image processing
 * `classicObjectDetection.ipynb`: Apply HOG Features extraction with image sliding window and Non-maximum suppression to create object detection model
+* `faceTracking.ipynb`: Object tracking using FaceNet model for face detection. Then, using OpenCV as the tracker 
 
 ## Market risk
 * `sharpeRatio.ipynb`: Portfolio optimisation using Sharpe ratio
