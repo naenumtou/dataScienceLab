@@ -14,9 +14,10 @@ This repository contained face mask detection model by using YOLOV4-Tiny from Da
 * `obj.data`:
 * `obj.names`:
 * `process.py`:
+* `faceMaskTiny.ipynb`:
 
 ## Setup step
-1. f
+1. 
 2. 
 
 ## Example image result
