@@ -27,5 +27,5 @@ This repository contained face mask detection model by using YOLOV4-Tiny from Da
 ## Example image from video result
 
 ## Full video result
-1. https://youtu.be/I0F2UCaSqw8
-2. https://youtu.be/Hkc9g2a1yXI
+1. https://www.youtube.com/watch?v=nFcm4XF0fz8
+2. https://www.youtube.com/watch?v=lO_xMM8i7p4
