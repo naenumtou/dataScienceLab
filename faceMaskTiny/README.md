@@ -7,7 +7,7 @@
   <img src="https://www.surveillance-video.com/media/catalog/product/cache/c01a9be670ea9db53792e63d854bd9d2/image/1304310da6/samsung-op-a2fmd-01-face-mask-detection-application-op-a2fmd-01.jpg" alt="Face mask detection model with YOLOV4-Tiny"/>
 </p>
 
-This repository contained face mask detection model. The overall process is to use transfer learning to build the object detection model to detect the face mask. Then, it will be appiled on the video by using `faceNet` to help for face detection prior appiled face mask trained model. 
+This repository contained face mask detection model by using YOLOV4-Tiny from Darknet. The model building process is required less code and it can be done by configuration. Below is the details and materials needed for develop face mask detection model by using GPU Training of Google Colab.
 
 ## Model materials
 * `yolov4-tiny-custom.cfg`:
