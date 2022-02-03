@@ -10,11 +10,11 @@
 This repository contained face mask detection model by using YOLOV4-Tiny from Darknet. The model building process is required less code and it can be done by configuration. Below is the details and materials needed for develop face mask detection model by using GPU Training of Google Colab.
 
 ## Model materials
-* `yolov4-tiny-custom.cfg`: 
-* `obj.data`:
-* `obj.names`:
-* `process.py`:
-* `faceMaskTiny.ipynb`:
+* `yolov4-tiny-custom.cfg`: The configuration file for YOLOV4-Tiny pre-trained model.
+* `obj.data`: The model training parameters.
+* `obj.names`: The labels for model training.
+* `process.py`: The python script to generate training materials.
+* `faceMaskTiny.ipynb`: The end-to-end Goole Colab notebok for face mask detection model with YOLOV4-Tiny.
 
 ## Setup step
 1. Create Google Colab notebook and turn GPU Training on.
@@ -192,9 +192,12 @@ To test with video, it can be used following command:
 
 The snapshots result from the video:
 <p align="center">
-  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/3RSryX2k/download-28.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/HLKRb0BV/1.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/k4bZsVpw/2.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/65wSVpLL/3.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/057FJwmy/4.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/hv8YFkgd/5.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
 </p>
-
 
 ## Full video result
 1. https://www.youtube.com/watch?v=nFcm4XF0fz8
