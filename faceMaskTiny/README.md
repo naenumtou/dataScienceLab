@@ -143,11 +143,13 @@ This step is optional. It can be done manually or by using command.
 !python process.py 2>/dev/null
 ```
 17. The python script will create 2 files, which are `test.txt` and `train.txt` into `/darknet/data/`.
-18. Download the pre-trained **YOLOv4-tiny weights**.
+18. Download the pre-trained **YOLOv4-tiny weights** into **darknet** folder.
 ```
 !wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.conv.29
 ```
-19. Begin the training process. The model will train for 6000 iterations based on the configuration. Usually, it takes up 2 hours to finish. However, it can be early stopped if the model loss does not have the improvement, around **30%** is recommended.
+
+## Training model
+1. Begin the training process. The model will train for 6000 iterations based on the configuration. Usually, it takes up 2 hours to finish. However, it can be early stopped if the model loss does not have the improvement, around **30%** is recommended.
 ```
 !./darknet detector train data/obj.data cfg/yolov4-tiny-custom.cfg yolov4-tiny.conv.29 -dont_show -map 2>/dev/null
 ```
@@ -156,7 +158,7 @@ This step is optional. It can be done manually or by using command.
   <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/wMfHDYNp/download-29.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
 </p>
 
-20. If the training process was stopped or crashed, it would restart by following command:
+2. If the training process was stopped or crashed, it would restart by following command:
 ```
 !./darknet detector train data/obj.data cfg/yolov4-tiny-custom.cfg /mydrive/faceMaskTiny/training/yolov4-tiny-custom_last.weights -dont_show -map 2>/dev/null
 ```
