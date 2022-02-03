@@ -52,7 +52,8 @@ This repository contained face mask detection model by using YOLOV4-Tiny from Da
 %rm -rf cfg/
 %mkdir cfg
 ```
-9. Download 3 files from this repository:
+9. Download 4 files from this repository:
+* `process.py`: The python script to generate training and validation files.
 * `obj.data`: The details of model training configuration.
 ```
 classes = 2
@@ -113,22 +114,87 @@ mask = 0,1,2
 anchors = 10,14,  23,27,  37,58,  81,82,  135,169,  344,319
 classes=2 #Change to 2
 ```
-10. Download face mask image dataset from Kaggle
-fff
+10. Download face mask image dataset, which already labelled from Kaggle by link below:
+* https://www.kaggle.com/techzizou/labeled-mask-dataset-yolo-darknet
+11. Upload all files and dataset to Google Drive into project folder NOT IN **darknet**.
 
+This step is optional. It can be done manually or by using command.
 
+12. The current is **darknet** folder. First, copy dataset in `.zip` format into `/darknet/` folder and unzip it into `/darknet/data/`.
+```
+!cp /mydrive/faceMaskTiny/obj.zip ../
+!unzip ../obj.zip -d data/
+```
+13. Copy `yolov4-tiny-custom.cfg` into `/darknet/cfg/`.
+```
+!cp /mydrive/faceMaskTiny/yolov4-tiny-custom.cfg ./cfg/
+```
+14. Copy `obj.names` and `obj.data` into `/darknet/data/`.
+```
+!cp /mydrive/faceMaskTiny/obj.names ./data/
+!cp /mydrive/faceMaskTiny/obj.data  ./data/
+```
+15. Copy processs script 'process.py' into the `/darknet/`.
+```
+!cp /mydrive/faceMaskTiny/process.py ./
+```
+16. Run python script. It can be used `2>/dev/null` to hide the log process.
+```
+!python process.py 2>/dev/null
+```
+17. The python script will create 2 files, which are `test.txt` and `train.txt` into `/darknet/data/`.
+18. Download the pre-trained **YOLOv4-tiny weights**.
+```
+!wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.conv.29
+```
+19. Begin the training process. The model will train for 6000 iterations based on the configuration. Usually, it takes up 2 hours to finish. However, it can be early stopped if the model loss does not have the improvement, around 30% is recommended.
+```
+!./darknet detector train data/obj.data cfg/yolov4-tiny-custom.cfg yolov4-tiny.conv.29 -dont_show -map 2>/dev/null
+```
 
+<p align="center">
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/wMfHDYNp/download-29.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+</p>
 
-
-
-
+20. If the training process was stopped or crashed, it would restart by following command:
+```
+!./darknet detector train data/obj.data cfg/yolov4-tiny-custom.cfg /mydrive/faceMaskTiny/training/yolov4-tiny-custom_last.weights -dont_show -map 2>/dev/null
+```
 
 ## Example image result
+After finishing the training process, the configuration `yolov4-tiny-custom.cfg` has to be changed prior using the model. Changing `batch=64` to `batch=1` and `subdivisions=16` to `subdivisions=1`.
+```
+%cd cfg
+!sed -i 's/batch=64/batch=1/' yolov4-tiny-custom.cfg
+!sed -i 's/subdivisions=16/subdivisions=1/' yolov4-tiny-custom.cfg
+%cd ..
+```
+An example image for testing model:
+
 <p align="center">
-<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/3RSryX2k/download-28.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/CxZDBF8w/mask2.jpg" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+</p>
+
+To test with image, it can be used following command:
+```
+!./darknet detector test data/obj.data cfg/yolov4-tiny-custom.cfg /mydrive/faceMaskTiny/training/yolov4-tiny-custom_best.weights /mydrive/faceMaskTiny/testFiles/mask2.jpg -thresh 0.3 2>/dev/null
+```
+
+<p align="center">
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/3RSryX2k/download-28.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
 </p>
 
 ## Example image from video result
+To test with video, it can be used following command:
+```
+!./darknet detector demo data/obj.data cfg/yolov4-tiny-custom.cfg /mydrive/faceMaskTiny/training/yolov4-tiny-custom_best.weights -dont_show /mydrive/faceMaskTiny/testFiles/videoTest1.mp4 -thresh 0.7 -i 0 -out_filename /mydrive/faceMaskTiny/videoResult1.avi
+```
+
+The snapshots result from the video:
+<p align="center">
+  <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/3RSryX2k/download-28.png" alt="Face mask detection model with YOLOV4-Tiny"/></a><br/><br/>
+</p>
+
 
 ## Full video result
 1. https://www.youtube.com/watch?v=nFcm4XF0fz8
