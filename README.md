@@ -54,6 +54,7 @@ The statistical models repository is contained the model or analysis, which are 
 * `RFMAnalysis.ipynb`: The customer segmentation with RFM Analysis
 
 ## Natural language processing (NLP)
+* `twitterIO.ipynb`: The TwitterIO data analytics to find inside topic of fake accounts by Information Operation (IO)
 * `twitterIOLSA.ipynb`: The topic modelling of TwitterIO Dataset using LSA Model
 
 ## Model (Others)
