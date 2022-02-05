@@ -14,7 +14,7 @@
 The repository is contained the materials for ML Model deployment using Docker container.
 
 ## Deployment materials
-* templates: Folder to store `.html` file for template rendering.
+* `templates`: Folder to store `.html` file for template rendering.
 * `Dockerfile`: The docker file for complier.
 * `app.py`: The python script to use trained ML Model.
 * `model.pk`: The simple ML Model (Linear regression) stored with pickle format.
