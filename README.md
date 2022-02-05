@@ -60,3 +60,4 @@ The statistical models repository is contained the model or analysis, which are 
 
 ## Model (Others)
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic.
+* `googleScraping.ipynb`: The web-scraping by `BeautifulSoup`.
