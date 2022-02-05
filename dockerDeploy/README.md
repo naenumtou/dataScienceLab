@@ -2,8 +2,10 @@
 
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-brightgreen)
 ![Python](https://img.shields.io/badge/Code-Python-blue)
+![HTML](https://img.shields.io/badge/Code-html-blue)
 ![pickle](https://img.shields.io/badge/Tools-pickle-brightgreen)
 ![Docker](https://img.shields.io/badge/Tools-Docker-brightgreen)
+![Heroku](https://img.shields.io/badge/Tools-Heroku-brightgreen)
 
 <p align="center">
   <img src="https://miro.medium.com/max/1400/0*UB1f_nWAiMlnYPeq.png" alt="Docker ML Model deployment"/>
@@ -13,5 +15,10 @@ The repository is contained the materials for ML Model deployment using Docker c
 
 ## Deployment materials
 * `model.pk`: The simple ML Model (Linear regression) stored with pickle format.
-* `appPredict.py`: The python script to use ML Model over `Flask` method.
-* `sendPostRequest.py`: The python script to get prediction from ML Model over `Flask` method.
+
+## Result
+The deployment ML Model is hosted by Heroku. It can be vistied from https://testingdockermlmodel.herokuapp.com/.
+
+<p align="center">
+  <img src="https://miro.medium.com/max/2400/1*UEY9Xc1pcgGLfr3HCpZ3uQ.png" alt="Docker ML Model deployment"/>
+</p>
