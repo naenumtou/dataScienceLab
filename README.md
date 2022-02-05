@@ -1,4 +1,4 @@
-# ✍🏻 The statistical models
+# ✍🏻 The data science lab
 
 ![Google Colab](https://img.shields.io/badge/Editor-Google%20Colab-brightgreen)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-brightgreen)
@@ -10,7 +10,15 @@
   <img src="https://research.phoenix.edu/sites/default/files/blogpost/images/statistical-analysis-hero.jpg" alt="The statistical models"/>
 </p>
 
-The statistical models repository is contained the model or analysis, which are not apart of IFRS 9 or Credit Risk. There are various kinds of statistical model / techniques, which may helpful to adapt other general cases.
+The repository is contained the several models as well as models tutorial. There are various kinds of works related such as:
+* Time series model: It covers statistical analytics on time series data.
+* Statistic analysis / technique: This provides useful / helpful statistical tasks that could be integrate in the models.
+* Libraries tutorial: The useful python libraries provides as the tutorials, which is effortless to follow.
+* Computer vision: 
+* Market risk:
+* Customer and Marketing: 
+* Natural language processing (NLP): 
+* Others: 
 
 ## Time series model
 * `bayesian_linear_regression.ipynb`: The Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference.
@@ -58,7 +66,7 @@ The statistical models repository is contained the model or analysis, which are 
 * `twitterIO.ipynb`: The TwitterIO data analytics to find inside topic of fake accounts by Information Operation (IO).
 * `twitterIOLSA.ipynb`: The topic modelling of TwitterIO Dataset using LSA Model.
 
-## Model (Others)
+## Others
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic.
 * `googleScraping.ipynb`: The web-scraping by `BeautifulSoup`.
 * `interview.py`: The question during interview process.
