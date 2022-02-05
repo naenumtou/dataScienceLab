@@ -72,4 +72,5 @@ There will be many more to come in the future.
 ## Others
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic.
 * `googleScraping.ipynb`: The web-scraping by `BeautifulSoup`.
+* `localHostDeploy`: The ML Model local host deployment using `Flask`.
 * `interview.py`: The question during interview process.
