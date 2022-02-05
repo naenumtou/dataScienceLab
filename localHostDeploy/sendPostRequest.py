@@ -1,4 +1,3 @@
-
 import requests
 
 URL = 'http://127.0.0.1:5000/prediction'
@@ -15,5 +14,3 @@ if r.status_code == 200:
     print(f'Prediction result: {r.text}')
 else:
     print('Recheck deploy status')
-    
-    		
