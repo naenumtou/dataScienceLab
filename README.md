@@ -20,6 +20,8 @@ The repository is contained the several models as well as models tutorial. There
 * Natural language processing (NLP): 
 * Others: 
 
+There will be many more to come in the future.
+
 ## Time series model
 * `bayesian_linear_regression.ipynb`: The Bayesian linear regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference.
 * `ARIMAModel.ipynb`: The ARIMA Model (Autoregressive Integrated Moving Average) used for stock price prediction.
