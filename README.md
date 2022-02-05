@@ -49,6 +49,7 @@ There will be many more to come in the future.
 
 ## Deployment
 * `localHostDeploy`: The ML Model local host deployment using `Flask`.
+* `dockerDeploy`: The ML Model local host deployment using docker.
 
 ## Computer vision
 * `KimJoug_unModel.ipynb`: The face recognition model of Kim Jong-un with `dlib` library.
