@@ -15,6 +15,7 @@ The repository is contained the several models as well as models tutorial. There
 * Time series model: It covers statistical analytics on time series data.
 * Statistic analysis / technique: This provides useful / helpful statistical tasks that could be integrate in the models.
 * Libraries tutorial: The useful python libraries provides as the tutorials, which is effortless to follow.
+* Deployment: The branch to keep materials for ML Model deployment.
 * Computer vision: 
 * Market risk:
 * Customer and Marketing: 
@@ -46,6 +47,9 @@ There will be many more to come in the future.
 * `optimumBinning.ipynb`: The tutorial for using OptBinning library to develop credit score card.
 * `pipelineModel.ipynb`: The tutorial for using Pipiline module in scikit-learn library.
 
+## Deployment
+* `localHostDeploy`: The ML Model local host deployment using `Flask`.
+
 ## Computer vision
 * `KimJoug_unModel.ipynb`: The face recognition model of Kim Jong-un with `dlib` library.
 * `LisaFaces.ipynb`: The face recognition model with a few lines of code using `face_recognition` library.
@@ -72,5 +76,4 @@ There will be many more to come in the future.
 ## Others
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic.
 * `googleScraping.ipynb`: The web-scraping by `BeautifulSoup`.
-* `localHostDeploy`: The ML Model local host deployment using `Flask`.
 * `interview.py`: The question during interview process.
