@@ -75,6 +75,7 @@ There will be many more to come in the future.
 * `twitterIOLSA.ipynb`: The topic modelling of TwitterIO Dataset using LSA Model.
 
 ## Others
+* `RVModelRandomForest.ipynb`: The used car residual values model using Random Forest Regression with Double Declining Balance (DDB) function.
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic.
 * `googleScraping.ipynb`: The web-scraping by `BeautifulSoup`.
 * `interview.py`: The question during interview process.
