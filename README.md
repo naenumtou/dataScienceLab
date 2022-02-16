@@ -19,6 +19,7 @@ The repository is contained the several models as well as models tutorial. There
 * Computer vision: 
 * Market risk:
 * Customer and Marketing: 
+* PySpark: 
 * Natural language processing (NLP): 
 * Others: 
 
@@ -73,6 +74,9 @@ There will be many more to come in the future.
 * `reExample.py`: The regular expression (RegEx) by python. To deal with text mining for NLP.
 * `twitterIO.ipynb`: The TwitterIO data analytics to find inside topic of fake accounts by Information Operation (IO).
 * `twitterIOLSA.ipynb`: The topic modelling of TwitterIO Dataset using LSA Model.
+
+## PySpark
+* `PySparkUsedcarData.ipynb`: The basic data processing using PySpark library.
 
 ## Others
 * `RVModelRandomForest.ipynb`: The used car residual values model using Random Forest Regression with Double Declining Balance (DDB) function.
