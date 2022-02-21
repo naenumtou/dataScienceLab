@@ -79,6 +79,7 @@ There will be many more to come in the future.
 * `PySparkUsedcarData.ipynb`: The basic data processing using PySpark library.
 
 ## Others
+* `COVIDLogScale.ipynb`: The plot of log-scale for COVID-19 Stop pandemic.
 * `RVModelRandomForest.ipynb`: The used car residual values model using Random Forest Regression with Double Declining Balance (DDB) function.
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic.
 * `googleScraping.ipynb`: The web-scraping by `BeautifulSoup`.
