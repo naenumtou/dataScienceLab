@@ -16,9 +16,9 @@ The repository is contained the several models as well as models tutorial. There
 * Statistic analysis / technique: This provides useful / helpful statistical tasks that could be integrate in the models.
 * Libraries tutorial: The useful python libraries provides as the tutorials, which is effortless to follow.
 * Deployment: The branch to keep materials for ML Model deployment.
-* Computer vision: 
-* Market risk:
-* Customer and Marketing: 
+* Computer vision: It contained both of notebook file and branch realted to computer vision topic.
+* Market risk: This is not my main area, which is credit risk. Thus, all related to market risks are placed under this topic.
+* Customer and Marketing: Recently, it is better to know how to apply data science skills with marketing areas.
 * PySpark: 
 * Natural language processing (NLP): 
 * Others: 
