@@ -70,6 +70,7 @@ There will be many more to come in the future.
 ## Customer and Marketing
 * `RFMAnalysis.ipynb`: The customer segmentation with RFM Analysis.
 * `marketBasket.ipynb`: The market basket analysis to uncover associations between items in the shop.
+* `basicCLV.ipynb`: The basis Customer Lifetime Value (CLV).
 
 ## Natural language processing (NLP)
 * `reExample.py`: The regular expression (RegEx) by python. To deal with text mining for NLP.
