@@ -32,3 +32,4 @@ The Dataset used for conducting the statistical models / techniques / tutorial. 
 | targetCard.jpg | The target of example card ace of hearts |
 | hist_covid-19.csv | The historycal cases of COVID-19 by country |
 | Groceries_dataset.csv | The shopping dataset for market basket analysis |
+| toDrawImage.jpg | The example image to draw with python code |
