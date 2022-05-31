@@ -20,8 +20,8 @@ The repository is contained the several models as well as models tutorial. There
 * Market risk: This is not my main area, which is credit risk. Thus, all related to market risks are placed under this topic.
 * Customer and Marketing: Recently, it is better to know how to apply data science skills with marketing areas.
 * PySpark: -soon-
-* Natural language processing (NLP): 
-* Others: 
+* Natural language processing (NLP): -soon-
+* Others: -soon-
 
 There will be many more to come in the future.
 
