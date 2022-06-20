@@ -89,3 +89,4 @@ There will be many more to come in the future.
 * `sir_seir_model.ipynb`: The simulation model for COVID-19 pandemic.
 * `googleScraping.ipynb`: The web-scraping by `BeautifulSoup`.
 * `interview.py`: The question during interview process.
+* `waterfallChart.ipynb`: The waterfall analysis plots by using `matplotlib`.
