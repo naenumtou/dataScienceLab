@@ -90,3 +90,4 @@ There will be many more to come in the future.
 * `googleScraping.ipynb`: The web-scraping by `BeautifulSoup`.
 * `interview.py`: The question during interview process.
 * `waterfallChart.ipynb`: The waterfall analysis plots by using `matplotlib`.
+* `LeicaNFT.ipynb`: The example of using python to create NFT Collection.
