@@ -43,6 +43,7 @@ There will be many more to come in the future.
 * `k-fold.sas`: Utilised SAS to perform K-Fold cross validation.
 * `one_hot_encoding.ipynb`: The transformation categorical data for modelling purpose.
 * `1_WayANOVA.ipynb`: The 1-Way ANOVA Statistical testing for categorical features with regression problem.
+* `Theil_SenRegression.ipynb`: The Theil-Sen Regression for outlier data.
 
 ## Libraries tutorial
 * `PyCaretModel.ipynb`: PyCaret is an open source, low-code machine learning library.
